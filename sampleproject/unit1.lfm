@@ -1,0 +1,156 @@
+object Form1: TForm1
+  Left = 1109
+  Height = 384
+  Top = 238
+  Width = 269
+  Caption = 'Form1'
+  ClientHeight = 384
+  ClientWidth = 269
+  Color = clCream
+  LCLVersion = '3.0.0.3'
+  object Panel1: TPanel
+    Left = 10
+    Height = 50
+    Top = 10
+    Width = 254
+    Caption = 'Berechnungen am Rechteck'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 184
+    Height = 24
+    Top = 328
+    Width = 80
+    Caption = 'Abbruch'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object RechnenButtonClick: TButton
+    Left = 88
+    Height = 24
+    Top = 328
+    Width = 80
+    Caption = 'Rechnen'
+    TabOrder = 2
+    OnClick = RechnenButtonClickClick
+  end
+  object Label1: TLabel
+    Left = 15
+    Height = 15
+    Top = 97
+    Width = 34
+    Caption = 'Seite a'
+    Color = clWhite
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 15
+    Height = 15
+    Top = 147
+    Width = 35
+    Caption = 'Seite b'
+    Color = clWhite
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 17
+    Height = 15
+    Top = 188
+    Width = 34
+    Caption = 'Fläche'
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 237
+    Width = 43
+    Caption = 'Umfang'
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 15
+    Top = 288
+    Width = 53
+    Caption = 'Diagonale'
+  end
+  object LaengeEdit: TEdit
+    Left = 87
+    Height = 23
+    Top = 89
+    Width = 105
+    Color = clWhite
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    TabOrder = 3
+  end
+  object BreiteEdit: TEdit
+    Left = 88
+    Height = 23
+    Top = 139
+    Width = 104
+    TabOrder = 4
+  end
+  object FlaecheEdit: TEdit
+    Left = 87
+    Height = 23
+    Top = 180
+    Width = 105
+    TabOrder = 5
+  end
+  object UmfangEdit: TEdit
+    Left = 88
+    Height = 23
+    Top = 229
+    Width = 104
+    TabOrder = 6
+  end
+  object DiagonaleEdit: TEdit
+    Left = 87
+    Height = 23
+    Top = 280
+    Width = 105
+    TabOrder = 7
+  end
+  object Label6: TLabel
+    Left = 216
+    Height = 15
+    Top = 97
+    Width = 17
+    Caption = 'cm'
+  end
+  object Label7: TLabel
+    Left = 216
+    Height = 15
+    Top = 147
+    Width = 17
+    Caption = 'cm'
+  end
+  object Label8: TLabel
+    Left = 216
+    Height = 15
+    Top = 192
+    Width = 21
+    Caption = 'cm²'
+  end
+  object Label9: TLabel
+    Left = 216
+    Height = 15
+    Top = 237
+    Width = 17
+    Caption = 'cm'
+  end
+  object Label10: TLabel
+    Left = 216
+    Height = 15
+    Top = 288
+    Width = 17
+    Caption = 'cm'
+  end
+end
